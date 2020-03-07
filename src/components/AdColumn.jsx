@@ -1,10 +1,9 @@
 import React from "react"
 import Image from 'react-bootstrap/Image'
-import dior from './../../images/dior.jpg'
-import keene from './../../images/keene.jpg'
-import arTecHouse from './../../images/artechouse.png'
-import taschen from './../../images/Taschen.png'
-import monotoneBar1 from './../../images/monoLine1.png'
+import dior from './../assets/images/dior.jpg'
+import keene from './../assets/images/keene.jpg'
+import arTecHouse from './../assets/images/artechouse.png'
+import taschen from './../assets/images/Taschen.png'
 import "./../../styles/adColumn.css"
 
 const adList = [
