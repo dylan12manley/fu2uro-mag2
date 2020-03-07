@@ -8,10 +8,10 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { createStore } from 'redux'
+import rootReducer from './../reducers/index'
 
-const { createStore } = Redux;
-const store = createStore(reducer);
-console.log(store.getState());
+const store = createStore(rootReducer);
 
 const App = () => (
   <>
