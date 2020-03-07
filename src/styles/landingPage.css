@@ -1,0 +1,22 @@
+#landingPage {
+
+}
+
+.startImgs {
+  background-image: url("./../images/start.png");
+  background-size: cover;
+  display: block;
+  margin: 0, auto;
+  padding: 0px;
+  height: 100vh;
+}
+
+.startImg {
+  height: 30%;
+  margin: 2%
+}
+
+.startImgBtn {
+  height: 20%;
+  margin: 2%;
+}

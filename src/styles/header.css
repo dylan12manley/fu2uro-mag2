@@ -1,0 +1,28 @@
+#header {
+  display: flex;
+  background-color: black;
+  width: 100vw;
+  height: 45px;
+  justify-content: center;
+}
+
+.mr-auto {
+  display: flex;
+  align-items: left;
+  font-family: Montserrat;
+}
+
+.companyName {
+  text-align: left;
+  padding-right: 65%;
+  margin-right: 30px;
+  margin-left:0;
+  color: white;
+  text-decoration: none;
+}
+
+.navLink{
+  margin-right: 10%;
+  color: white;
+  text-decoration: none;
+}
