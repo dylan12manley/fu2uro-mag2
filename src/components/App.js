@@ -9,6 +9,10 @@ import PropTypes from 'prop-types';
 import { Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+const { createStore } = Redux;
+const store = createStore(reducer);
+console.log(store.getState());
+
 const App = () => (
   <>
     <div>

@@ -3,7 +3,7 @@
 }
 
 .startImgs {
-  background-image: url("./../images/start.png");
+  background-image: url("../assets/images/start.png");
   background-size: cover;
   display: block;
   margin: 0, auto;

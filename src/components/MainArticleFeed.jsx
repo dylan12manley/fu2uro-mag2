@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Row, Col } from 'react-bootstrap';
-import tyler from './../../images/tyler.jpg';
-import "./../../styles/mainArticlesFeed.css"
+import tyler from '../assets/images/tyler.jpg';
+import "./../styles/mainArticlesFeed.css"
 
 const fullArticlesList = [
   {

@@ -1,6 +1,6 @@
 import React from 'react';
-import start from '../../images/start.png';
-import './../../styles/landingPage.css'
+import start from '../assets/images/start.png';
+import './../styles/landingPage.css'
 
 function LandingPage(){
   return (

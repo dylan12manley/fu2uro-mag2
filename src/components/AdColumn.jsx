@@ -4,7 +4,7 @@ import dior from './../assets/images/dior.jpg'
 import keene from './../assets/images/keene.jpg'
 import arTecHouse from './../assets/images/artechouse.png'
 import taschen from './../assets/images/Taschen.png'
-import "./../../styles/adColumn.css"
+import "./../styles/adColumn.css"
 
 const adList = [
   {

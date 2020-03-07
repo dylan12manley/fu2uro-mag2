@@ -1,11 +1,10 @@
 import React from 'react'
 import Carousel  from 'react-bootstrap/Carousel';
-import triangles1 from './../../images/tri1.png'
-import futuro1 from './../../images/Futuro1.jpg'
-import futuro2 from './../../images/Futuro2.jpg'
-import futuro3 from './../../images/Futuro3.jpg'
-import futuro4 from './../../images/Futuro4.jpg'
-import "./../../styles/carousel1.css"
+import futuro1 from './../assets/images/Futuro1.jpg'
+import futuro2 from './../assets/images/Futuro2.jpg'
+import futuro3 from './../assets/images/Futuro3.jpg'
+import futuro4 from './../assets/images/Futuro4.jpg'
+import "./../styles/carousel1.css"
 
 const featuredArticles = [
   {
