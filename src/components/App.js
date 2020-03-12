@@ -1,15 +1,15 @@
 import React from "react";
+import { Switch, Route } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { createStore } from 'redux'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './../styles/index.css';
+import rootReducer from './../reducers/index'
 import Art from './Art';
 import Home from './Home';
 import LandingPage from './LandingPage';
-import './../styles/index.css';
 import Error404 from './Error404';
-import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { Switch, Route } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { createStore } from 'redux'
-import rootReducer from './../reducers/index'
 
 const store = createStore(rootReducer);
 
