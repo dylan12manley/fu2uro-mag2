@@ -1,15 +1,17 @@
 #header {
+  position: fixed;
+  top: 0;
   display: flex;
   background-color: black;
   width: 100vw;
   height: 45px;
   justify-content: center;
+  z-index: 1;
 }
 
 .mr-auto {
   display: flex;
   align-items: left;
-  font-family: Montserrat;
 }
 
 .companyName {
